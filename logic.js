@@ -20,7 +20,7 @@ function dateActuality(){
     return fh.getFullYear()+"-"+(fh.getMonth()+1)+"-"+fh.getDate()+" "+fh.getHours()+":"+fh.getMinutes();
 }
 function insertTask(name,description){
-    db.ref('task/').push({
+    db.ref('task/'+name).set({
         name:name,
         description:description,
         date:dateActuality()
