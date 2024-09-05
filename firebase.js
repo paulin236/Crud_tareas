@@ -1,3 +1,4 @@
+import { getAuth } from "firebase/auth";
   var config = {
     apiKey: "AIzaSyAj7cdG9iGRlyrCdz04QaKtp0fXberB41g",
   authDomain: "holamundo-b14a9.firebaseapp.com",
@@ -8,3 +9,5 @@
   appId: "1:265875831725:web:d40b1630065551b9787f24"
   };
   firebase.initializeApp(config);
+  // Initialize Firebase Authentication and get a reference to the service
+  const auth = getAuth(app);
