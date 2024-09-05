@@ -1,4 +1,4 @@
-import { getAuth } from "firebase/auth";
+
   var config = {
     apiKey: "AIzaSyAj7cdG9iGRlyrCdz04QaKtp0fXberB41g",
   authDomain: "holamundo-b14a9.firebaseapp.com",
